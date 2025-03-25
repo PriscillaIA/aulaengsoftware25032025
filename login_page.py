@@ -1,6 +1,6 @@
-from flask import Flask, render_template, request, redirect, url_for # type: ignore
+from flask import flask, render_template, request, redirect, url_for # type: ignore
 
-app = Flask(__name__)
+app = flask(__name__)
 
 # Mock user data
 users = {
